@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>צור קשר</title>
+    <link rel="icon" type="image/x-icon" href="pictures/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a class="link-logo" href="home.html">
+            <img class="logo header-logo" src="pictures/logo.svg" />
+        </a>
+        <nav class="nav">
+            <ul >
+                <li ><a class="yellow" href="gallery.html">מתקני הפארק</a></li>
+                <li>
+                    <a class="red dropdown" href="contact.html">צור קשר</a>
+                    <ul class="dropdown-content">
+                        <li><a class="drop-link" href="common-questions.html">שאלות נפוצות</a></li>
+                        
+                    </ul>
+                </li>
+            </li>
+            <li><a class="light-purple" href="oops.html">הוראות הגעה</a></li>
+            <li><a class="green" href="oops.html">חנויות ומסעדות</a></li>
+            
+            <li><a class="purple" href="oops.html">קבוצה סגורה</a></li>
+            </ul>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="gallery.html" id="gallery">מתקני הפארק</a>
+            <a href="contact.html" id="contact">צור קשר</a>
+            <a href="common-questions.html" id="questions" >שאלות נפוצות</a>
+          </div>
+    </header>
+    <main>
+        <div class="purple-container">צור קשר</div>
+        <div class="flex content-contact">
+            <div class="contact">
+                <p class="text-contact">מחויבים לשרות הטוב ביותר.
+                    את רוב המידע אודות הפארק ושעות פעילות ניתן לקבל באתר.
+                    במידה ויש לכם שאלות נוספות? אנא השאירו פרטים. </p>
+                <h1>שירות לקוחות כללי</h1>
+                <a id="tel" href="tel:02-5441919"> <img src="pictures/phone-call.png" alt="phone">02-5441919</a>
+            </div>
+            <div class="form">
+                <h2>חובה למלא את השדות המסומנות בכוכבית *</h2>
+                <form>
+                    <div class="flex">
+                        <input class="fname important" type="text" id="fname" name="fname" required placeholder="*שם פרטי">
+                        <input class="lname important" type="text" id="lname" name="lname" required placeholder="*שם משפחה">
+                        <input class="phone important" type="tel" id="phone" name="phone" required placeholder="*טלפון">
+                        <input class="mail" type="email" id="mail" name="mail" placeholder="כתובת אימייל">
+                        <select id="subject" name="subject" value="בחר נושא פניה">
+                            <option selected value="0" disabled>בחר נושא פניה</option>
+                            <option value="australia">שעות פעילות</option>
+                            <option value="canada">תלונה</option>
+                            <option value="usa">אחר</option>
+                            <textarea class="content important" placeholder="תוכן הפניה"></textarea>
+                    </div>
+                    <input id="submit" class="button" type="submit" name="submit" value="שלח">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img class="logo footer-logo" src="pictures/logo.svg" alt="our logo!">
+        <div class="column">
+            <a href="gallery.html">מתקני הפארק</a>
+            <a href="oops.html">בלוג</a>
+            <a href="oops.html">קצת עלינו</a>
+            <a href="oops.html">שינוי זמני הגעה</a>
+        </div>
+        <div class="column">
+            <a href="oops.html">שעות הפעילות</a>
+            <a href="oops.html">כללים והתנהגות</a>
+            <a href="oops.html">נגישות</a>
+        </div>
+        <div class="column">
+            <a href="oops.html">איך מגיעים</a>
+            <a href="oops.html">תקנון</a>
+            <a href="contact.html">צור קשר</a>
+            <a href="common-questions.html">שאלות נפוצות</a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

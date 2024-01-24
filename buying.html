@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="home.html">
+            <img class="logo header-logo" src="pictures/logo.svg" />
+        </a> 
+        <nav>
+            <a class="yellow" href="page2.html">מתקני הפארק</a>
+            <a class="red dropdown" href="">לחגוג במג'יק
+                <div class="dropdown-content">
+                    <a href="#">יום הולדת במג'יקס</a>
+                    <a href="#">קבוצה סגורה</a>
+            </a>
+            </div>
+            <a class="light-purple" href="">הוראות הגעה</a>
+            <a class="green" href="">חנויות ומסעדות</a>
+            <a class="light-blue" href="contact.html">צור קשר</a>
+            <a class="purple" href="">קבוצה סגורה</a>
+        </nav>
+    </header>
+    <main>
+        <div class="purple-container cards ">רכישת כרטיסים</div>
+        <form class="column">
+            <label for="name"></label>
+
+            <div>
+                <label for="date">בחר תאריך</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div>
+                <label for="cards">מספר כרטיסים בהזמנה זו:</label>
+                <input type="number" id="cards" name="cards" min="1" max="20">
+            </div>
+            <div>
+                <label for="creditcard">מספר כריס אשראי</label>
+                <input type="text" id="creditcard" name="creditcard">
+            </div>
+            <div>
+                <label for="validity">תוקף</label>
+                <input type="month" id="validity" name="validity">
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>
